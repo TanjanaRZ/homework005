@@ -8,10 +8,8 @@ int m = Convert.ToInt32(Console.ReadLine());
 int count = 0;
 for (int i = 0; i <= m-1; i++)
 {
-    int[] arr = new int[m];
     Console.WriteLine("Введите число: ");
     int n = Convert.ToInt32(Console.ReadLine());
-    arr [i]=n;
     if (n > 0)
     {
         count++;
